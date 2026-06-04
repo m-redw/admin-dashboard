@@ -9,6 +9,7 @@ body, p, h2, h3, h4, h5 {
 
 :root {
     --blue-color: #1992d4ff;
+    --gray-color: #e2e8f0;
     font-family: "Roboto", sans-serif;
 }
 
@@ -18,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: min(250px, 40%) 3fr;
     grid-template-rows: 150px 1fr;
-    background-color: #e2e8f0;
+    background-color: var(--gray-color);
 }
 
 .sidebar, header, .main-content {
@@ -66,6 +67,7 @@ body {
 }
 
 
+
 header {
     padding: 20px 30px;
     background-color: white;
@@ -87,7 +89,12 @@ header {
 .search-container > input[type="text"] {
     max-width: 500px;
     width: 80%;
+    height: 20px;
     margin: 0 15px;
+
+    background-color: var(--gray-color);
+    border: none;
+    border-radius: 10px;
 }
 
 .profile-notif-container {
