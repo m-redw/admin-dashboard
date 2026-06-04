@@ -1,6 +1,13 @@
-body {
+body, p, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --blue-color: #1992d4ff;
+}
+
+body {
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -15,7 +22,7 @@ body {
 .sidebar {
     grid-row: 1 / span 2;
 
-    background-color: #1992d4ff;
+    background-color: var(--blue-color);
 
     display: flex;
     flex-direction: column;
@@ -50,4 +57,74 @@ body {
 
 .dashboard, .important-stuff, .support-stuff {
     margin: 15px 0;
+}
+
+
+header {
+    padding: 20px 30px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.search-container > input[type="text"] {
+    max-width: 500px;
+    width: 80%;
+    margin: 0 15px;
+}
+
+.profile-notif-container {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.profile-notif-container > img[alt="Profile picture."] {
+    margin: 0 20px;
+}
+
+.profile-notif-container > a, .profile-notif-container > a:visited {
+    width: 150px;    
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greeting {
+    margin-left: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.header-buttons {
+    margin-right: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.header-buttons > button {
+    background-color: var(--blue-color);
+    border: none;  
+
+    color: white;
+    font-weight: bold;
+
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
 }
