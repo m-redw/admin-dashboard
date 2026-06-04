@@ -16,7 +16,8 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: min(250px, 40%) 3fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    background-color: #e2e8f0;
 }
 
 .sidebar, header, .main-content {
@@ -66,6 +67,8 @@ body {
 
 header {
     padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0 2px 5px -2px #949494;
 }
 
 .header-top {
@@ -133,11 +136,13 @@ header {
     border-radius: 30px;
 }
 
+
+
 .main-content {
     height: 100%;
     padding: 25px;
 
-    background-color: #e2e8f0;
+    /* background-color: #e2e8f0; */
 
     display: grid;
     grid-template-columns: 3fr minmax(200px, 25%);
