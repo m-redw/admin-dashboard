@@ -90,12 +90,12 @@ header {
 .search-container > input[type="text"] {
     max-width: 500px;
     width: 80%;
-    height: 20px;
+    height: 25px;
     margin: 0 15px;
 
     background-color: var(--gray-color);
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .profile-notif-container {
