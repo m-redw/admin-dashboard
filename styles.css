@@ -1,8 +1,10 @@
 body {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: min(200px, 25%) 3fr;
+    grid-template-columns: min(250px, 40%) 3fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -12,4 +14,40 @@ body {
 
 .sidebar {
     grid-row: 1 / span 2;
+
+    background-color: #1992d4ff;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.dashboard, .important-stuff > div, .support-stuff > div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebar a, .sidebar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar img {
+    margin-right: 15px;
+}
+
+.dashboard > a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard, .important-stuff, .support-stuff {
+    margin: 15px 0;
+}
+
+.important-stuff a, .support-stuff a {
+    font-size: 20px;
+    font-weight: bold;
 }
