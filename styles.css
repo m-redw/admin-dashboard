@@ -1,0 +1,15 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: min(200px, 25%) 3fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar, header, .main-content {
+    overflow: auto;
+}
+
+.sidebar {
+    grid-row: 1 / span 2;
+}
