@@ -59,7 +59,7 @@ For this project, I needed to emulate the following admin dashboard (from the Od
   <img src="images/finished-product.png" width="500">
 </p>
 <p align="center">
-  *(Image above is a sreenshot of thhe finished product. You could view the dashboard yourself by going to deployments)*
+  *(Image above is a sreenshot of the finished product. You could view the dashboard yourself by going to deployments)*
 </p>
 
 **All profile pictures were CC0 from <a href="https://unsplash.com">unsplash.com!</a>**
@@ -68,4 +68,4 @@ For this project, I needed to emulate the following admin dashboard (from the Od
 
 *This is my first time writing a README file like this. I'm surprised how much html knowledge carries over :0*
 
-*If you read this far, thanks.*
+*If you've read this far, thanks.*
