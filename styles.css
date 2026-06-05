@@ -145,6 +145,14 @@ header {
     border-radius: 30px;
 }
 
+.header-buttons > button:hover {
+    background-color: #1258a8;
+}
+
+.header-buttons > button:active {
+    background-color: #091d74;
+}
+
 img[alt="Profile picture."] {
     border-radius: 30px;
     flex-shrink: 0;
