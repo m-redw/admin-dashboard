@@ -55,7 +55,12 @@ For this project, I needed to emulate the following admin dashboard (from the Od
 
 * After all was said and done, I came out with a nice admin dashboard. I belive it's similar enough to the reference and assignment to call it finished.
 * I learned a lot from this experience, especially grids, flex, and SVGs (lol).
-
+<p align="center">
+  <img src="images/finished-product.png" width="500">
+</p>
+<p align="center">
+  *(Image above is a sreenshot of thhe finished product. You could view the dashboard yourself by going to deployments)*
+</p>
 
 **All profile pictures were CC0 from <a href="https://unsplash.com">unsplash.com!</a>**
 
